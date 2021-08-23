@@ -1,29 +1,75 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import Paper from "@material-ui/core/Paper";
-import Grid from "@material-ui/core/Grid";
+import "./Home.scss";
+// import { makeStyles } from "@material-ui/core/styles";
+// import Paper from "@material-ui/core/Paper";
+// import Grid from "@material-ui/core/Grid";
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-  paper: {
-    padding: theme.spacing(2),
-    textAlign: "center",
-    color: theme.palette.text.primary,
-  },
-}));
+// const useStyles = makeStyles((theme) => ({
+//   root: {
+//     flexGrow: 1,
+//   },
+//   paper: {
+//     padding: theme.spacing(2),
+//     textAlign: "center",
+//     color: "white",
+//   },
+// }));
 
 export default function Home() {
-  const classes = useStyles();
+  //   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
-      <Grid container spacing={2}>
-        <Grid item xs={12}>
-          <Paper className={classes.paper}>Home</Paper>
-        </Grid>
-      </Grid>
-    </div>
+    <section id="bg">
+      <div className="section">
+        <div>
+          <h3>WebDesign</h3>
+        </div>
+        <div>
+          <h4>Design Ideas</h4>
+          <p>Images</p>
+          <p>Images</p>
+        </div>
+      </div>
+      <div className="section">
+        <div>
+          <h3>WebDesign</h3>
+        </div>
+        <div>
+          <h4>Design Ideas</h4>
+          <p>Images</p>
+          <p>Images</p>
+        </div>
+      </div>
+      <div className="section">
+        <div>
+          <h3>WebDesign</h3>
+        </div>
+        <div>
+          <h4>Design Ideas</h4>
+          <p>Images</p>
+          <p>Images</p>
+        </div>
+      </div>
+      <div className="section">
+        <div>
+          <h3>WebDesign</h3>
+        </div>
+        <div>
+          <h4>Design Ideas</h4>
+          <p>Images</p>
+          <p>Images</p>
+        </div>
+      </div>
+      <div className="section">
+        <div>
+          <h3>WebDesign</h3>
+        </div>
+        <div>
+          <h4>Design Ideas</h4>
+          <p>Images</p>
+          <p>Images</p>
+        </div>
+      </div>
+    </section>
   );
 }

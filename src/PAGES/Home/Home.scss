@@ -1,0 +1,23 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+#bg {
+  background-image: linear-gradient(-45deg, #1f2421, #49a078);
+  color: #dce1de;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 10vh;
+}
