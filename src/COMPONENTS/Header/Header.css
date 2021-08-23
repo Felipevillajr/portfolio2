@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #49a078;
+}
+
+.dropbtn {
+  border: none;
+  color: #dce1de;
+  font-weight: bold;
+  width: 200px;
+  height: auto;
+  padding: 16px;
+  font-size: 2rem;
+}
+
+.homer {
+  background-image: url(../../IMAGES/homer.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  min-width: 10vw;
+  min-height: 10vh;
+}
+
+.homer:hover {
+  background-image: url(../../IMAGES/homer_doh.png);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 25%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  padding: 16px;
+  z-index: 1;
+  background-color: #49a078;
+  font-size: 2rem;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #dce1de;
+}
+
+.dropdown-content a:hover {
+  color: #9cc5a1;
+  border: 2px solid #49a078;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
